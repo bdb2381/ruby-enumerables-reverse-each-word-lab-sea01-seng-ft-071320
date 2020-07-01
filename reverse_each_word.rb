@@ -16,10 +16,10 @@ def reverse_each_word(string_to_reverse)
   backwards_word_sentence = []
   #index = 0
   holding_array.collect do |make_backwards_word|
-    make_backwards_word.reverse.join
+  print  make_backwards_word.reverse.join
   end
 
-backwards_word_sentence.join(" ")
+#backwards_word_sentence.join(" ")
 #print test
  #backwards_word_sentence.join(" ")
 end
