@@ -19,7 +19,7 @@ def reverse_each_word(string_to_reverse)
        make_backwards_word.reverse
   end
 
-
+make_backwards_word.join(" ")
 #print test
  #backwards_word_sentence.join(" ")
 end
