@@ -4,9 +4,9 @@ def reverse_each_word(string_to_reverse)
   index = 0
   holding_array.each do |make_backwards_word|
     backwards_word_sentence[index] = make_backwards_word.reverse
-    print backwards_word_sentence
+    
     index +=1
   end
-
+print backwards_word_sentence
 
 end
