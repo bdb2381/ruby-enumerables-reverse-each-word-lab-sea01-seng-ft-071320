@@ -1,5 +1,5 @@
 def reverse_each_word(string_to_reverse)
-  holding_array.new(string_to_reverse)
+  Array.new(string_to_reverse)
 
   print holding_array
   #holding_array = string_to_reverse
