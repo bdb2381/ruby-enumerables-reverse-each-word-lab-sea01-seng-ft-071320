@@ -19,6 +19,6 @@ def reverse_each_word(string_to_reverse)
       test = make_backwards_word
     print  test.reverse
     end
-print test
+#print test
  #backwards_word_sentence.join(" ")
 end
