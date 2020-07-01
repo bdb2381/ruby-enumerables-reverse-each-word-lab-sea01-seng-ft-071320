@@ -17,7 +17,7 @@ def reverse_each_word(string_to_reverse)
   #index = 0
   holding_array.collect do |make_backwards_word|
        make_backwards_word.reverse
-  
+
     end
 #print test
  #backwards_word_sentence.join(" ")
