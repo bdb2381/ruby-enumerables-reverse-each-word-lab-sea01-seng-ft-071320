@@ -12,11 +12,11 @@ def reverse_each_word(string_to_reverse)
 end
 =end
 def reverse_each_word(string_to_reverse)
-#  holding_array = string_to_reverse.split(' ')
+  holding_array = string_to_reverse.split(' ')
   #backwards_word_sentence = []
   #index = 0
-  string_to_reverse.collect do |make_backwards_word|
-     print string_to_reverse.reverse
+  holding_array.collect do |make_backwards_word|
+     print holding_array.reverse
     end
 
  #backwards_word_sentence.join(" ")
