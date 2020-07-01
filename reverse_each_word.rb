@@ -20,6 +20,6 @@ def reverse_each_word(string_to_reverse)
   end
 
 #backwards_word_sentence.join(" ")
-print test
+print test.join(" ")
  #backwards_word_sentence.join(" ")
 end
