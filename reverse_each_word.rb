@@ -16,7 +16,7 @@ def reverse_each_word(string_to_reverse)
   backwards_word_sentence = []
 
   holding_array.each do |make_backwards_word|
-    backwards_word_sentence.select do
+    backwards_word_sentence.collect do
        print make_backwards_word.reverse
     end
   end
