@@ -7,6 +7,5 @@ def reverse_each_word(string_to_reverse)
     index +=1
   end
 
-print backwards_word_sentence.join(" ")
-
+ backwards_word_sentence.join(" ")
 end
